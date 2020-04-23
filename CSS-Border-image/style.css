@@ -1,0 +1,32 @@
+.border {
+    border: 10px solid transparent;
+    border-image: url(/CSS-Border-image/image/border.png) 30 stretch;
+    padding: 15px;
+
+}
+.border-1 {
+
+    border: 10px solid transparent;
+    border-image: url(/CSS-Border-image/image/border.png) 50 round;
+    padding: 15px;
+}
+
+.border-2 {
+
+    border: 10px solid transparent;
+    border-image: url(/CSS-Border-image/image/border.png) 20% stretch;
+    padding: 15px;
+}
+
+.border-3 {
+
+    border: 10px solid transparent;
+    border-image: url(/CSS-Border-image/image/border.png) 50% round;
+    padding: 15px;
+}
+.example{
+    border: 10px dotted black;
+    padding: 35px;
+    background: yellow;
+    background-clip: content-box;
+  }

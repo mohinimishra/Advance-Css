@@ -1,0 +1,20 @@
+.gradient{
+    background-image: linear-gradient(red, yellow);
+    height: 200px;
+}
+.gradient-1{
+    background-image: linear-gradient(to right, red, yellow);
+    height: 200px;
+}
+.gradient-2{
+    background-image: linear-gradient(to bottom right, red, yellow);
+    height: 200px;
+}
+.gradient-3{
+    background-image: linear-gradient(green, red, yellow);
+    height: 200px;
+}
+.gradient-4{
+background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+height: 200px;
+}

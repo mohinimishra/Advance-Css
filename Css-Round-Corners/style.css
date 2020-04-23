@@ -1,0 +1,54 @@
+.corner {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.box-1 {
+    border-radius: 25px;
+    background: #73AD21;
+    width: 200px;
+    padding: 20px;
+}
+
+.box-2 {
+    border-radius: 25px;
+    border: 2px solid black;
+    width: 200px;
+    padding: 20px;
+}
+.box-3 {
+    border-radius: 25px;
+    background: url(/image/download.png);
+    width: 200px;
+    padding: 20px;
+    background-repeat: repeat;
+    background-position: left top;
+}
+
+.corner-1 {
+    border-radius: 15px 50px 30px 5px;
+    background: #73AD21;
+    width: 200px;
+    padding: 20px;
+    height: 200px;
+    margin: 10px;
+}
+
+.corner-2 {
+    border-radius: 15px 50px 30px;
+    border: 2px solid black;
+    width: 200px;
+    padding: 20px;
+    height: 200px;
+    margin-top: 10px;
+}
+
+.corner-3 {
+    background: url(/image/download.png);
+    width: 200px;
+    padding: 20px;
+    background-repeat: repeat;
+    background-position: left top;
+    border-radius: 15px 50px;
+}
